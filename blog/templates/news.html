@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>News</h1>
+    <form action="" method="post">{% csrf_token %}
+        {{ form.as_p }}</form>
+    <iframe width="1000" height="800"  src="https://kg.akipress.org/" frameborder="0" allowfullscreen="0"></iframe>
+{% endblock content %}
